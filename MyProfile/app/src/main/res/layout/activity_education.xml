@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masters of Electrical Engineering"
+        android:textColor="#222222"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/MEE"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massachussets Institute of Technology"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:id="@+id/college1"
+        android:layout_below="@id/MEE"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_below="@id/college1"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masters in Physics"
+        android:textColor="#222222"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/Physics"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massachussets Institute of Technology"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:id="@+id/college2"
+        android:layout_below="@id/Physics"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_below="@id/college2"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bachelor of Electrical Engineering"
+        android:textColor="#222222"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:id="@+id/BEE" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massachussets Institute of Technology"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:id="@+id/college3"
+        android:layout_below="@id/BEE"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"
+        android:layout_below="@id/college3"
+        android:layout_marginTop="12dp"/>
+
+
+
+
+
+</LinearLayout>
